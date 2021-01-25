@@ -18,5 +18,5 @@ FetchContent_MakeAvailable(react_juce)
 ```
 2. Link to react_juce
 ```cmake
-target_link_libraries(${TARGE_NAME} PRIVATE react_juce)
+target_link_libraries(${TARGET_NAME} PRIVATE react_juce)
 ```
