@@ -8,7 +8,7 @@
 */
 
 #include "View.h"
-#include <juce_react/core/ReactApplicationRoot.h>
+#include <react_juce/core/ReactApplicationRoot.h>
 
 
 namespace reactjuce

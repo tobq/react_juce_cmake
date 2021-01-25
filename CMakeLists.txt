@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_library(juce REQUIRED)
 
-add_library(react_juce src/juce_react/react_juce.cpp)
+add_library(react_juce src/react_juce/react_juce.cpp)
 
 target_include_directories(react_juce
         PUBLIC

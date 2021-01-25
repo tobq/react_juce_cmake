@@ -8,12 +8,12 @@
 */
 
 #include "ViewManager.h"
-#include <juce_react/views/CanvasView.h>
-#include <juce_react/views/ImageView.h>
-#include <juce_react/views/ScrollView.h>
-#include <juce_react/views/ScrollViewContentShadowView.h>
-#include <juce_react/views/TextView.h>
-#include <juce_react/views/TextShadowView.h>
+#include <react_juce/views/CanvasView.h>
+#include <react_juce/views/ImageView.h>
+#include <react_juce/views/ScrollView.h>
+#include <react_juce/views/ScrollViewContentShadowView.h>
+#include <react_juce/views/TextView.h>
+#include <react_juce/views/TextShadowView.h>
 
 
 namespace reactjuce

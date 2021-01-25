@@ -11,7 +11,7 @@
 
 #include "EcmascriptEngine.h"
 #include "FileWatcher.h"
-#include <juce_react/views/View.h>
+#include <react_juce/views/View.h>
 #include "ViewManager.h"
 
 

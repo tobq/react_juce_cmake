@@ -8,8 +8,8 @@
 */
 
 #include "ImageView.h"
-#include <juce_react/core/Utils.h>
-#include <juce_react/core/ReactApplicationRoot.h>
+#include <react_juce/core/Utils.h>
+#include <react_juce/core/ReactApplicationRoot.h>
 
 namespace
 {

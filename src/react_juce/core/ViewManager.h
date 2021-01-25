@@ -10,8 +10,8 @@
 #pragma once
 
 #include <map>
-#include <juce_react/views/View.h>
-#include <juce_react/views/ShadowView.h>
+#include <react_juce/views/View.h>
+#include <react_juce/views/ShadowView.h>
 #include <juce_data_structures/juce_data_structures.h>
 
 

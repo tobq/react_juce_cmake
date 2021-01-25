@@ -8,7 +8,7 @@
 */
 
 #include "TextShadowView.h"
-#include <juce_react/views/TextView.h>
+#include <react_juce/views/TextView.h>
 #include <juce_data_structures/juce_data_structures.h>
 
 

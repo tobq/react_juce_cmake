@@ -74,17 +74,17 @@
  #pragma GCC diagnostic pop
 #endif
 
-#include <juce_react/core/AppHarness.cpp>
-#include <juce_react/core/EcmascriptEngine.cpp>
+#include <react_juce/core/AppHarness.cpp>
+#include <react_juce/core/EcmascriptEngine.cpp>
 
 #if JUCE_MODULE_AVAILABLE_juce_audio_processors
-    #include <juce_react/core/GenericEditor.cpp>
+    #include <react_juce/core/GenericEditor.cpp>
 #endif
 
-#include <juce_react/core/ReactApplicationRoot.cpp>
-#include <juce_react/views/ShadowView.cpp>
-#include <juce_react/views/TextShadowView.cpp>
-#include <juce_react/views/View.cpp>
-#include <juce_react/core/ViewManager.cpp>
-#include <juce_react/views/ScrollView.cpp>
-#include <juce_react/views/ImageView.cpp>
+#include <react_juce/core/ReactApplicationRoot.cpp>
+#include <react_juce/views/ShadowView.cpp>
+#include <react_juce/views/TextShadowView.cpp>
+#include <react_juce/views/View.cpp>
+#include <react_juce/core/ViewManager.cpp>
+#include <react_juce/views/ScrollView.cpp>
+#include <react_juce/views/ImageView.cpp>
