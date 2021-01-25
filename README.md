@@ -2,7 +2,7 @@
 
 ## Usage
 
-### 1. Load in the project
+### 1. Load react_juce
 ```cmake
 # load downloaded project
 add_subdirectory(react_juce)
