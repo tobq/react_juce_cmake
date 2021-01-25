@@ -19,5 +19,9 @@ FetchContent_MakeAvailable(react_juce)
 ```
 ### 2. Link to react_juce
 ```cmake
-target_link_libraries(${TARGET_NAME} PRIVATE react_juce)
+target_link_libraries(${TARGET_NAME} PRIVATE 
+    juce::juce_core
+    juce::juce_graphics
+    juce_react)
 ```
+* Note: you must link with [juce](https://github.com/juce-framework/JUCE) in order to build with juce_react
