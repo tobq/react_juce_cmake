@@ -15,14 +15,5 @@ target_include_directories(react_juce
         libs/duktape
         libs/duktape/duktape/src
         libs/yoga)
-target_link_libraries(react_juce PUBLIC
-        juce::juce_recommended_config_flags
-        juce::juce_recommended_lto_flags
-        juce::juce_recommended_warning_flags
-        juce::juce_core
-        juce::juce_audio_basics
-        juce::juce_audio_devices
-        juce::juce_audio_processors
-        juce::juce_audio_utils
-        juce::juce_graphics
-        juce::juce_gui_basics)
+
+target_link_libraries(react_juce PUBLIC juce::juce_core juce::juce_graphics)
