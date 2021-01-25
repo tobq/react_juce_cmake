@@ -1,7 +1,8 @@
-# react_juce with cmake integration
+# [react_juce](https://github.com/nick-thompson/blueprint/tree/master/react_juce) with cmake integration
 
 ## Usage
 
+1. Load in the project
 ```cmake
 # load downloaded project
 add_subdirectory(react_juce)
@@ -15,7 +16,7 @@ FetchContent_Declare(react_juce
 # load fetched project
 FetchContent_MakeAvailable(react_juce)
 ```
-Then 
+2. Link to react_juce
 ```cmake
 target_link_libraries(${TARGE_NAME} PRIVATE react_juce)
 ```
