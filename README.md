@@ -9,11 +9,11 @@ add_subdirectory(react_juce)
 
 #### or...
 
-# fetch project from github 
+# declare project on github 
 FetchContent_Declare(react_juce
         GIT_REPOSITORY https://github.com/tobq/react_juce_cmake.git
         GIT_TAG master)
-# load fetched project
+# fetched / load project
 FetchContent_MakeAvailable(react_juce)
 ```
 2. Link to react_juce
