@@ -24,4 +24,4 @@ target_link_libraries(${TARGET_NAME} PRIVATE
     juce::juce_graphics
     react_juce)
 ```
-* Note: you must link with [`juce`](https://github.com/juce-framework/JUCE) (core and graphics) in order to build with `react_juce`
+* Note: you must link with [`juce`](https://github.com/juce-framework/JUCE) in order to build with `react_juce`
